@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+
+
+        <div>
+            <!---------相当于把Action方法中保存的内容输出--------->
+            @Html.Raw(@ViewBag.HtmlStrBuilder)
+        </div>
+
+
+    </div>
+</body>
+</html>
